@@ -1,0 +1,23 @@
+COMANDOS
+
+1. npm init
+2. npm install cypress --save-dev
+    npm install -g npx
+    npx cypress install --force
+    npx cypress open
+
+3. node_modules\.bin\cypress open
+4. Ctrl + C --> Parar la consola
+5. npm install -D cypress-xpath
+6. node_modules\.bin\cypress run
+7. npx cypress run
+   npx cypress run --headed
+   npx cypress run --browser edge
+   npx cypress run --spec "cypress\e2e\spec.cy.js"
+   npx cypress run --spec "cypress\e2e\*"
+8. npm install --save-dev cypress-file-upload
+9. npm install --save-dev @4tw/cypress-drag-drop
+10.npm install @badeball/cypress-cucumber-preprocessor
+   npm install --save-dev cypress-cucumber-preprocessor 
+
+
