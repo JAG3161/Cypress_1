@@ -35,7 +35,7 @@ describe("Welcome to the Cypress Course 2024 !!", () => {
                 cy.xpath("//input[contains(@placeholder,'name@example.com')]").should('be.visible').clear().type(i_mail)               
                 cy.get("#currentAddress").should('be.visible').clear().type(i_city)               
                 cy.xpath("//textarea[contains(@id,'permanentAddress')]").should('be.visible').clear().type(i_country)
-                cy.wait(1000)
+                //cy.wait(1000)
 
             })
         })

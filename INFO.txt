@@ -18,6 +18,8 @@ COMANDOS
 8. npm install --save-dev cypress-file-upload
 9. npm install --save-dev @4tw/cypress-drag-drop
 10.npm install @badeball/cypress-cucumber-preprocessor
-   npm install --save-dev cypress-cucumber-preprocessor 
+   npm install --save-dev cypress-cucumber-preprocessor
+
+11. npx cypress run --record --key c32a3dd8-fedf-406e-b48f-d779e22d6771 
 
 

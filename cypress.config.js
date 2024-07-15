@@ -2,6 +2,7 @@ const { defineConfig } = require("cypress");
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = defineConfig({
+  projectId: "j8cpta",
   viewportWidth:1500,
   viewportHeight:1000,
   chromeWebSecurity: false,
@@ -14,3 +15,5 @@ module.exports = defineConfig({
     },
   },
 });
+
+
