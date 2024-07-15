@@ -7,7 +7,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
 
   e2e: {  
-    "specPattern": "**/*.feature",  
+    //"specPattern": "**/*.feature",  
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on('file:preprocessor', cucumber())
